@@ -6,9 +6,11 @@ Make sure to check [Examples.kt](https://github.com/mhashim6/Pi4K/blob/master/sr
 
 ```kotlin
 fun blink() {
-    digitalOutput(GPIO_01) {
-        toggle()
-        delay(500)
+    while (true) {
+        digitalOutput(GPIO_01) {
+            toggle()
+            delay(500)
+        }
     }
 }
 ```

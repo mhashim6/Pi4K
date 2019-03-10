@@ -1,0 +1,4 @@
+rootProject.name = 'pi4k'
+include 'pi4k_examples'
+findProject(':pi4k_examples')?.name = 'pi4k-examples'
+

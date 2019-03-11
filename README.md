@@ -70,7 +70,7 @@ allprojects {
 Add the dependency:
 ```groovy
 dependencies {
-	implementation 'com.github.mhashim6:Pi4K:Tag'
+	implementation 'com.github.mhashim6:Pi4K:0.1'
 }
 ```
 ---
@@ -88,6 +88,6 @@ Add the dependency:
 <dependency>
 	<groupId>com.github.mhashim6</groupId>
 	<artifactId>Pi4K</artifactId>
-	<version>Tag</version>
+	<version>0.1</version>
 </dependency>
 ```

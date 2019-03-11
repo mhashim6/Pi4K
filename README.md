@@ -1,6 +1,9 @@
 ﻿# Pi4K
 [Pi4J](https://www.pi4j.com) Kotlin bindings.
 
+[![](https://jitpack.io/v/mhashim6/Pi4K.svg)](https://jitpack.io/#mhashim6/Pi4K)
+
+
 ## Demo
 Make sure to check [Examples.kt](https://github.com/mhashim6/Pi4K/blob/master/src/main/kotlin/mhashim6/pi4k/Examples.kt).
 
@@ -70,7 +73,7 @@ allprojects {
 Add the dependency:
 ```groovy
 dependencies {
-	implementation 'com.github.mhashim6:Pi4K:Tag'
+	implementation 'com.github.mhashim6:Pi4K:0.1'
 }
 ```
 ---
@@ -88,6 +91,6 @@ Add the dependency:
 <dependency>
 	<groupId>com.github.mhashim6</groupId>
 	<artifactId>Pi4K</artifactId>
-	<version>Tag</version>
+	<version>0.1</version>
 </dependency>
 ```

@@ -8,12 +8,10 @@
 Make sure to check [Examples.kt](https://github.com/mhashim6/Pi4K/blob/master/src/main/kotlin/mhashim6/pi4k/Examples.kt).
 
 ```kotlin
-fun blink() {
+fun blink() = digitalOutput(GPIO_01) {
     while (true) {
-        digitalOutput(GPIO_01) {
-            toggle()
-            delay(500)
-        }
+        toggle()
+        delay(500)
     }
 }
 ```
@@ -64,33 +62,33 @@ Add it in your root build.gradle at the end of repositories:
 
 ```groovy
 allprojects {
-	repositories {
-		...
-		maven { url 'https://jitpack.io' }
-	}
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
 }
 ```
 Add the dependency:
 ```groovy
 dependencies {
-	implementation 'com.github.mhashim6:Pi4K:0.1'
+    implementation 'com.github.mhashim6:Pi4K:0.1'
 }
 ```
 ---
 - Maven
 ```xml
 <repositories>
-	<repository>
-		<id>jitpack.io</id>
-		<url>https://jitpack.io</url>
-	</repository>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
 </repositories>
 ```
 Add the dependency:
 ```xml
 <dependency>
-	<groupId>com.github.mhashim6</groupId>
-	<artifactId>Pi4K</artifactId>
-	<version>0.1</version>
+    <groupId>com.github.mhashim6</groupId>
+    <artifactId>Pi4K</artifactId>
+    <version>0.1</version>
 </dependency>
 ```

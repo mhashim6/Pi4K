@@ -10,12 +10,10 @@ import com.pi4j.wiringpi.Gpio.delay
  */
 
 
-fun blink() {
-    digitalOutput(GPIO_01) {
-        while (true) {
-            toggle()
-            delay(500)
-        }
+fun blink() = digitalOutput(GPIO_01) {
+    while (true) {
+        toggle()
+        delay(500)
     }
 }
 

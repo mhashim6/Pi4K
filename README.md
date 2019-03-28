@@ -1,8 +1,7 @@
 ﻿# Pi4K
-[Pi4J](https://www.pi4j.com) Kotlin bindings.
-
+[Pi4J](https://www.pi4j.com) Kotlin bindings.  
+[![Awesome Kotlin Badge](https://kotlin.link/awesome-kotlin.svg)](https://github.com/KotlinBy/awesome-kotlin)
 [![](https://jitpack.io/v/mhashim6/Pi4K.svg)](https://jitpack.io/#mhashim6/Pi4K)
-
 
 ## Demo
 Make sure to check [Examples.kt](https://github.com/mhashim6/Pi4K/blob/master/src/main/kotlin/mhashim6/pi4k/Examples.kt).
@@ -50,6 +49,12 @@ pwmOutput(GPIO_01, 400)
 softPwmOutput(GPIO_01, 400)
 ```
 - Analog counterparts are also available.
+
+- When done with gpio, housekeeping is necessary;
+
+```kotlin
+gpioShutdown()
+```
 
 ## Testing
 Tests were simulated on my machine using the ` PI4J_PLATFORM=Simulated` Environment variable.  

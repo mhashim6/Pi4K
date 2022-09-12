@@ -1,4 +1,7 @@
-﻿# Pi4K
+# Notice
+This repo is for Pi4J V1 and is **no longer maintained**. The **project is now maintained** at [Pi4J/pi4j-kotlin](https://github.com/Pi4J/pi4j-kotlin) instead
+
+# Pi4K
 [Pi4J](https://www.pi4j.com) Kotlin bindings.  
 [![Awesome Kotlin Badge](https://kotlin.link/awesome-kotlin.svg)](https://github.com/KotlinBy/awesome-kotlin)
 [![](https://jitpack.io/v/mhashim6/Pi4K.svg)](https://jitpack.io/#mhashim6/Pi4K)
